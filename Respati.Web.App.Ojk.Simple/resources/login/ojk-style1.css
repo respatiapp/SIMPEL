@@ -1,0 +1,118 @@
+﻿/***************************/
+
+/***Add by Rizha Fakhrudin***/
+
+/*** Tab ***/
+.tabs-left > .nav-tabs > li.active > a, .tabs-left > .nav-tabs > li.active > a:hover {
+    border-left: 2px solid #95060c;
+}
+
+.tabs-below > .nav-tabs > li.active > a, .tabs-below > .nav-tabs > li.active > a:hover, .tabs-below > .nav-tabs > li.active > a:focus {
+    border-bottom: 2px solid #95060c;
+}
+
+.nav-tabs.tab-color-blue > li.active > a, .nav-tabs.tab-color-blue > li.active > a:focus, .nav-tabs.tab-color-blue > li.active > a:hover {
+    color: #AB1218;
+    border-color: #95060c #AB1218 transparent;
+}
+
+.nav-tabs.tab-color-blue > li > a, .nav-tabs.tab-color-blue > li > a:focus {
+    background-color: #AB1218;
+}
+
+/*** Accordion ***/
+
+.accordion-style1.panel-group .panel-heading .accordion-toggle {
+    color: #AB1218;
+    background-color: #fff;
+}
+
+    .accordion-style1.panel-group .panel-heading .accordion-toggle:hover {
+        color: #AB1218;
+        background-color: #F9F9F9;
+    }
+
+    .accordion-style1.panel-group .panel-heading .accordion-toggle.collapsed {
+        background-color: #F9F9F9;
+        color: #AB1218;
+    }
+/*** progress bar ***/
+.progress-bar-warning {
+    background-color: #AB1218;
+}
+
+/*** Sticky ***/
+/*** Red ***/
+/*
+.gritter-item-wrapper.gritter-info{
+	background:#AB1218;
+}
+*/
+
+/*** Yellow ***/
+
+/*.gritter-item-wrapper.gritter-info {
+    background: #F4FA58;
+}
+
+.gritter-with-image > span {
+    color: #000;
+}
+
+.gritter-with-image > p {
+    color: #000;
+}*/
+
+
+/*** Green ***/
+/*
+.gritter-item-wrapper.gritter-info{
+	background:#69aa46;
+}
+
+.gritter-with-image > span{
+	color:#000;
+}
+
+.gritter-with-image > p{
+	color:#000;
+}
+*/
+/*** Modal***/
+.btn-primary:hover, .open .btn-primary.dropdown-toggle {
+    background-color: #95060c;
+    border-color: #95060c;
+}
+
+.btn-primary, .btn-primary:focus {
+    background-color: #AB1218 !important;
+    border-color: #AB1218;
+}
+
+/*** Dropdown ***/
+.dropdown-danger li a:hover, .dropdown-danger li a:focus, .dropdown-danger li a:active, .dropdown-danger li.active a, .dropdown-danger li.active a:hover, .dropdown-danger .dropdown-submenu:hover > a, .nav-tabs .dropdown-danger li > a:focus {
+    background: #95060c;
+}
+
+/*** Menu ***/
+.nav-list > li > a {
+    display: block;
+    padding: 0 16px 7px 7px;
+    background-color: #f9f9f9;
+    color: #585858;
+    text-shadow: none !important;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+/*** End ***/
+.gritter-info-yellow {
+    background: #f2bb46 !important;
+    color: #AB1218 !important;
+}
+
+/*Blue Gritter Notice*/
+.gritter-item-wrapper.gritter-info {
+    background: #134b62 !important;
+}

@@ -1,0 +1,53 @@
+﻿.dropdown-menu li a:hover, .dropdown-menu li a:focus, .dropdown-menu li a:active, .dropdown-menu li.active a, .dropdown-menu li.active a:hover, .dropdown-menu .dropdown-submenu:hover > a, .nav-tabs .dropdown-menu li > a:focus {
+    background: #AB1218;
+}
+
+.pull-left {
+    left: -159px; /* minus nilai dropdown-menu */
+    top: -5px;
+}
+
+.wizard-steps li.active:before, .wizard-steps li.complete:before, .wizard-steps li.active .step, .wizard-steps li.complete .step {
+    border-color: #AB1218;
+}
+
+@media only screen and (max-width:480px) {
+    .pull-left {
+        left: -120px;
+        top: -5px;
+    }
+}
+
+@media only screen and (max-width:475px) {
+    .pull-left {
+        left: -120px; /* minus nilai dropdown-menu */
+        top: -5px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .pull-left {
+        left: -120px; /* minus nilai dropdown-menu */
+        top: -5px;
+    }
+}
+
+/**** Adding by Rizha ****/
+input[type="textParam"] {
+    border-radius: 0 !important;
+    color: #858585;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 2px 2px;
+    line-height: 1.2;
+    font-size: 11px;
+    font-family: inherit;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-transition-duration: .1s;
+    transition-duration: .1s;
+    height: 26px;
+}
+.ui-corner-all{
+    font-size:12px;
+}
